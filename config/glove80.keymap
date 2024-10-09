@@ -38,45 +38,45 @@
         compatible  = "zmk,underglow-layer";
         Alphabet {
             bindings = <
-                 GREEN  ______  ______  ______  ______                                                              ______  ______  ______  ______  TEAL
-                 ______  ______  ______  ______  ______ ______                                               ______  ______  ______  ______  ______  ______
-                 ______  ______  ______  ______  ______ ______                                               ______  ______  ______  ______  ______  ______
-                 ______  ______  ______  ______  ______ ______                                               ______  ______  ______  ______  ______  ______
-                 ______  ______  ______  ______  ______ ______ ______ ______ ______   ______  ______  ______ ______  ______  ______  ______  ______  ______
-                 ______  ______  ______  ______  ______        ______ ______ ______   ______  ______  ______         ______  ______  ______  ______  ______
+                PURPLE PURPLE PURPLE PURPLE PURPLE                                                          PURPLE PURPLE PURPLE PURPLE PURPLE
+                PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE                                            PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE
+                PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE                                            PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE
+                PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE                                            PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE
+                PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE  PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE
+                PURPLE PURPLE PURPLE PURPLE PURPLE        PURPLE PURPLE PURPLE  PURPLE PURPLE PURPLE        PURPLE PURPLE PURPLE PURPLE PURPLE
                 >;
             layer-id = <LAYER_Alphabet>;
         };
         Programming {
             bindings = <
-                PURPLE PURPLE PURPLE PURPLE PURPLE                                                    ______ ______ ______  WHITE  TEAL
-                PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE                                      ______ ______ ______ ______ ______ ______
-                WHITE PURPLE PURPLE PURPLE PURPLE PURPLE                                       GREEN GREEN GREEN GREEN  WHITE  WHITE
-                WHITE PURPLE PURPLE PURPLE PURPLE PURPLE                                       GREEN GREEN GREEN GREEN ______  WHITE
-                PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE WHITE WHITE WHITE  WHITE WHITE WHITE ______ ______ WHITE WHITE  WHITE  WHITE
-                     WHITE WHITE WHITE WHITE WHITE        WHITE WHITE WHITE  WHITE WHITE WHITE         WHITE WHITE WHITE  WHITE  WHITE
+                   RED    RED    RED    RED    RED                                                             RED    RED    RED    RED    RED
+                   RED    RED    RED    RED    RED    RED                                               RED    RED    RED    RED    RED    RED
+                   RED    RED    RED    RED    RED    RED                                               RED    RED    RED    RED    RED    RED
+                   RED    RED    RED    RED    RED    RED                                               RED    RED    RED    RED    RED    RED
+                   RED    RED    RED    RED    RED    RED    RED    RED    RED     RED    RED    RED    RED    RED    RED    RED    RED    RED
+                   RED    RED    RED    RED    RED           RED    RED    RED     RED    RED    RED           RED    RED    RED    RED    RED
                 >;
             layer-id = <LAYER_Programming>;
         };
         Movement {
             bindings = <
-                 ______  ______  ______  ______  ______                                                        ______  ______  ______   WHITE    TEAL
-                 ______  ______     RED  ______     RED  ______                                        ______  ______  ______  ______  ______  ______
-                  WHITE  ______  ______     RED  ______  ______                                        ______   GREEN  PURPLE  ORANGE  ______  ______
-                  WHITE  ______     RED     RED     RED  ______                                        ______   GREEN  PURPLE  ORANGE  ______  ______
-                 ______  ______  ______  ______  ______  ______  WHITE WHITE WHITE  WHITE PURPLE GREEN ORANGE   GREEN  PURPLE  ORANGE  ______  ______
-                  WHITE   WHITE   WHITE   WHITE   WHITE          WHITE WHITE WHITE  WHITE WHITE WHITE           WHITE   WHITE   WHITE   WHITE   WHITE
+                  TEAL   TEAL   TEAL   TEAL   TEAL                                                            TEAL   TEAL   TEAL   TEAL   TEAL
+                  TEAL   TEAL   TEAL   TEAL   TEAL   TEAL                                              TEAL   TEAL   TEAL   TEAL   TEAL   TEAL
+                  TEAL   TEAL   TEAL   TEAL   TEAL   TEAL                                              TEAL   TEAL   TEAL   TEAL   TEAL   TEAL
+                  TEAL   TEAL   TEAL   TEAL   TEAL   TEAL                                              TEAL   TEAL   TEAL   TEAL   TEAL   TEAL
+                  TEAL   TEAL   TEAL   TEAL   TEAL   TEAL   TEAL   TEAL   TEAL    TEAL   TEAL   TEAL   TEAL   TEAL   TEAL   TEAL   TEAL   TEAL
+                  TEAL   TEAL   TEAL   TEAL   TEAL          TEAL   TEAL   TEAL    TEAL   TEAL   TEAL          TEAL   TEAL   TEAL   TEAL   TEAL
                 >;
             layer-id = <LAYER_Movement>;
         };
         Gaming {
             bindings = <
-                 TEAL  ______  ______  ______  ______                                                           GREEN  ______  ______  WHITE  TEAL
+                 GREEN  GREEN  GREEN  GREEN  GREEN                                                           GREEN  GREEN  GREEN  GREEN  GREEN
                  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN                                             GREEN  GREEN  GREEN  GREEN  GREEN  GREEN
-                 WHITE  ______  GREEN  GREEN  GREEN  GREEN                                             GREEN  GREEN  GREEN  GREEN  GREEN  GREEN
-                 WHITE  GREEN  GREEN  GREEN  GREEN  GREEN                                             GREEN  GREEN  GREEN  GREEN  GREEN  GREEN
-                 GREEN  GREEN  GREEN  GREEN  GREEN  GREEN  WHITE WHITE WHITE  WHITE WHITE WHITE  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN
-                 WHITE WHITE WHITE WHITE WHITE             WHITE WHITE WHITE  WHITE WHITE WHITE        WHITE WHITE WHITE  WHITE  WHITE
+                 GREEN  GREEN  GREEN  GREEN  GREEN  GREEN                                             GREEN  GREEN  GREEN  GREEN  GREEN  GREEN
+                 GREEN  GREEN  GREEN  GREEN  GREEN  GREEN                                             GREEN  GREEN  GREEN  GREEN  GREEN  GREEN
+                 GREEN  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN   GREEN  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN  GREEN
+                 GREEN  GREEN  GREEN  GREEN  GREEN         GREEN  GREEN  GREEN   GREEN  GREEN  GREEN         GREEN  GREEN  GREEN  GREEN  GREEN
                 >;
             layer-id = <LAYER_Gaming>;
         };

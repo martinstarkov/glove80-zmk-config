@@ -51,8 +51,8 @@
             bindings = <
                 PURPLE PURPLE PURPLE PURPLE PURPLE                                                    ______ ______ ______  WHITE  TEAL
                 PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE                                      ______ ______ ______ ______ ______ ______
-                WHITE PURPLE PURPLE PURPLE PURPLE PURPLE                                       ______ ______ ______ ______  WHITE  WHITE
-                WHITE PURPLE PURPLE PURPLE PURPLE PURPLE                                       ______ ______ ______ ______ ______  WHITE
+                WHITE PURPLE PURPLE PURPLE PURPLE PURPLE                                       GREEN GREEN GREEN GREEN  WHITE  WHITE
+                WHITE PURPLE PURPLE PURPLE PURPLE PURPLE                                       GREEN GREEN GREEN GREEN ______  WHITE
                 PURPLE PURPLE PURPLE PURPLE PURPLE PURPLE WHITE WHITE WHITE  WHITE WHITE WHITE ______ ______ WHITE WHITE  WHITE  WHITE
                      WHITE WHITE WHITE WHITE WHITE        WHITE WHITE WHITE  WHITE WHITE WHITE         WHITE WHITE WHITE  WHITE  WHITE
                 >;
@@ -814,7 +814,7 @@ behaviors {
 
         layer_Alphabet {
             bindings = <
-   &to 3   &none   &none   &none   &none                                                                                 &kp PSCRN      &none    &none  &rgb_ug RGB_TOG       &to 0
+   &to 3   &none   &bt_0   &none   &none                                                                                 &kp PSCRN      &none    &bt_0  &rgb_ug RGB_TOG       &to 0
    &none   &none   &none   &none   &none   &none                                                                  &none      &none      &mo 1    &mo 1       &finnish_a  &finnish_o
  &kp TAB   &kp Q   &kp W   &kp E   &kp R   &kp T                                                                  &kp Y      &kp U      &kp I    &kp O          &kp SQT   &kp QMARK
  &kp ESC   &kp A   &kp S   &kp D   &kp F   &kp G                                                                  &kp H      &kp J      &kp K    &kp L            &kp P    &kp EXCL
@@ -825,12 +825,12 @@ behaviors {
 
         layer_Programming {
             bindings = <
-  &kp DLLR   &kp HASH  &kp PRCNT  &kp GRAVE  &kp BSLH                                                                      &none   &none   &none  &trans  &trans
-    &kp AT  &kp TILDE     &kp LT     &kp GT  &kp AMPS   &kp PIPE                                                   &none   &none   &none   &none   &none   &none
-    &trans    &kp DQT   &kp LBRC   &kp RBRC  &kp STAR   &kp FSLH                                                   &none   &none   &none   &none  &trans  &trans
-    &trans  &kp EQUAL   &kp LPAR   &kp RPAR  &kp SEMI  &kp COLON                                                   &none   &none   &none   &none   &none  &trans
- &kp CARET  &kp UNDER   &kp LBKT   &kp RBKT  &kp PLUS  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans   &none   &none  &trans  &trans  &trans  &trans
-    &trans     &trans     &trans     &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+  &kp DLLR   &kp HASH  &kp PRCNT  &kp GRAVE  &kp BSLH                                                                                        &none            &none            &none  &trans  &trans
+    &kp AT  &kp TILDE     &kp LT     &kp GT  &kp AMPS   &kp PIPE                                                            &none            &none            &none            &none   &none   &none
+    &trans    &kp DQT   &kp LBRC   &kp RBRC  &kp STAR   &kp FSLH                                                  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &trans  &trans
+    &trans  &kp EQUAL   &kp LPAR   &kp RPAR  &kp SEMI  &kp COLON                                                  &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD   &none  &trans
+ &kp CARET  &kp UNDER   &kp LBKT   &kp RBKT  &kp PLUS  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans            &none            &none           &trans           &trans  &trans  &trans
+    &trans     &trans     &trans     &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans                            &trans           &trans           &trans  &trans  &trans
             >;
         };
 
